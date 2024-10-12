@@ -36,7 +36,7 @@ import java.time.Duration;
 import java.util.UUID;
 
 @Configuration
-@EnableWebSecurity // Enable web security
+@EnableWebSecurity
 public class AuthorizationServerConfig {
 
     private final KeyPair keyPair;
